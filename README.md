@@ -1,6 +1,6 @@
-# ASCON Distinguisher:
+# ASCON Distinguisher: 
 A design skeleton for a simple distinguisher against round-reduced ASCON.
-**Status: skeleton only.** Every function has a typed signature, a docstring
+Every function has a typed signature, a docstring
 and numbered TODO steps, and raises `NotImplementedError`. Nothing is
 implemented, and importing any module produces no output.
 
@@ -87,8 +87,3 @@ DifferentialDistinguisher        CubeDistinguisher
 - Cube-size budget and the policy for choosing variable bits.
 - Baseline model: random permutation versus random function.
 - Whether to add a bitsliced S-box and a vectorised oracle for speed.
-
-## Disclaimer
-
-This is a design prototype. It contains no working cryptanalysis code and
-makes no claims about the security of ASCON.
