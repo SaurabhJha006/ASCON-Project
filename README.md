@@ -1,4 +1,4 @@
-# ASCON Distinguisher: 
+# ASCON Distinguisher:
 A design skeleton for a simple distinguisher against round-reduced ASCON.
 **Status: skeleton only.** Every function has a typed signature, a docstring
 and numbered TODO steps, and raises `NotImplementedError`. Nothing is
